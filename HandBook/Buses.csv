@@ -1,4 +1,4 @@
-Serial_number;State_number;ID_driver;ID_Maintenance
+Serial_number;State_number;ID_driver;ID_conductor;ID_Maintenance
 0025;С568АО;1;3;1
 0154;В233АМ;2;4;2
 0597;С045РО;3;2;3
