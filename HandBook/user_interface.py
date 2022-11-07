@@ -43,7 +43,7 @@ def single_click():
             if ID_conductor == сonductors_row['ID_conductor']:
                 ST.insert(END, "Информация о кондукторе: ")
                 ST.insert(END, f"{сonductors_row['ID_conductor'], сonductors_row['Full_name'], сonductors_row['Work_experience']}\n")
-                log.Drivers(f'Open and close file "Conductors.csv", Full_name:{сonductors_row["Full_name"]}, Work_experience: {сonductors_row}\n')
+                log.Conductors(f'Open and close file "Conductors.csv", Full_name:{сonductors_row["Full_name"]}, Work_experience: {сonductors_row}\n')
                 
     with open("PTI.csv",encoding="utf-8",newline="") as pti_file:
         pti_reader = csv.DictReader(pti_file, delimiter=";")
@@ -60,7 +60,7 @@ def single_click():
             if ID_works == ttiw_row['ID_works']:
                 ST.insert(END, "Информация о видах работ ТО: ")
                 ST.insert(END, f"{ttiw_row['ID_works'], ttiw_row['Types_work']}")
-                log.PTI(f'Open and close file "TTIW.csv", ID_works:{ID_works}, Types_work: {ttiw_row["Types_work"]}\n')            
+                log.TTIW(f'Open and close file "TTIW.csv", ID_works:{ID_works}, Types_work: {ttiw_row["Types_work"]}\n')            
     return
 
 tk.Button(root, text="Вывести результат", command=single_click, font=10,).pack(side=BOTTOM,pady=10)
