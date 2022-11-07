@@ -42,8 +42,16 @@ def single_click():
             if ID_Maintenance == pti_row['ID_Maintenance']:
                 ST.insert(END, "Информация о ТО: ")
                 ST.insert(END, f"{pti_row['ID_Maintenance'], pti_row['Date_passage'], pti_row['ID_works']}")
+                ID_works = pti_row['ID_works']
                 log.PTI(f'Open and close file "PTI.csv", Date_passage:{pti_row["Date_passage"]}, ID_Maintenance: {ID_Maintenance}\n')
-                
+
+    with open("TTIW.csv",encoding="utf-8",newline="") as ttiw_file:
+        ttiw_reader = csv.DictReader(ttiw_file, delimiter=";")
+        for ttiw_row in ttiw_reader:
+            if ID_works == ttiw_row['ID_works']:
+                ST.insert(END, "Информация о видах работ ТО: ")
+                ST.insert(END, f"{ttiw_row['ID_works'], ttiw_row['Types_work']}")
+                log.PTI(f'Open and close file "TTIW.csv", ID_works:{ID_works}, Types_work: {ttiw_row["Types_work"]}\n')            
     return
 
 tk.Button(root, text="Вывести результат", command=single_click, font=10,).pack(side=BOTTOM,pady=10)

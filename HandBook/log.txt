@@ -1,3 +1,16 @@
 21:54, Buses, Open and close file "Buses.csv", State_number:В233АМ, ID_driver: 2, ID_Maintenance: 2
 21:54, Drivers, Open and close file "Drivers.csv", Full_name:Петров Петр Петрович, ID_driver: 2
 21:54, Passing a technical inspection, Open and close file "PTI.csv", Date_passage:21.12.2022, ID_Maintenance: 2
+21:58, Buses, Open and close file "Buses.csv", State_number:С045РО, ID_driver: 3, ID_Maintenance: 3
+21:58, Drivers, Open and close file "Drivers.csv", Full_name:Семенов Семен Семенович, ID_driver: 3
+21:58, Passing a technical inspection, Open and close file "PTI.csv", Date_passage:08.11.2012, ID_Maintenance: 3
+21:58, Buses, Open and close file "Buses.csv", State_number:С045РО, ID_driver: 3, ID_Maintenance: 3
+21:58, Drivers, Open and close file "Drivers.csv", Full_name:Семенов Семен Семенович, ID_driver: 3
+21:58, Passing a technical inspection, Open and close file "PTI.csv", Date_passage:08.11.2012, ID_Maintenance: 3
+21:59, Buses, Open and close file "Buses.csv", State_number:В233АМ, ID_driver: 2, ID_Maintenance: 2
+21:59, Drivers, Open and close file "Drivers.csv", Full_name:Петров Петр Петрович, ID_driver: 2
+21:59, Passing a technical inspection, Open and close file "PTI.csv", Date_passage:21.12.2022, ID_Maintenance: 2
+21:59, Buses, Open and close file "Buses.csv", State_number:В233АМ, ID_driver: 2, ID_Maintenance: 2
+21:59, Drivers, Open and close file "Drivers.csv", Full_name:Петров Петр Петрович, ID_driver: 2
+21:59, Passing a technical inspection, Open and close file "PTI.csv", Date_passage:21.12.2022, ID_Maintenance: 2
+21:59, Passing a technical inspection, Open and close file "TTIW.csv", ID_works:2, Types_work: Регулировочные, Смазочные, Контрольно-диагностические
