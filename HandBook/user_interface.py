@@ -1,1 +1,2 @@
-print("Готово!")
+import log
+import tkinter as tk
