@@ -14,3 +14,40 @@
 21:59, Drivers, Open and close file "Drivers.csv", Full_name:Петров Петр Петрович, ID_driver: 2
 21:59, Passing a technical inspection, Open and close file "PTI.csv", Date_passage:21.12.2022, ID_Maintenance: 2
 21:59, Passing a technical inspection, Open and close file "TTIW.csv", ID_works:2, Types_work: Регулировочные, Смазочные, Контрольно-диагностические
+22:03, Buses, Open and close file "Buses.csv", State_number:О002ОА, ID_driver: 4, ID_Maintenance: 4
+22:03, Drivers, Open and close file "Drivers.csv", Full_name:Карлов Карл Карлович, ID_driver: 4
+22:04, Buses, Open and close file "Buses.csv", State_number:В233АМ, ID_driver: 2, ID_Maintenance: 2
+22:04, Drivers, Open and close file "Drivers.csv", Full_name:Петров Петр Петрович, ID_driver: 2
+22:04, Drivers, Open and close file "Conductors.csv", Full_name:Филипов Филип Филипович, Work_experience: {'ID_conductor': '4', 'Full_name': 'Филипов Филип Филипович', 'Work_experience': '5'}
+22:04, Passing a technical inspection, Open and close file "PTI.csv", Date_passage:21.12.2022, ID_Maintenance: 2
+22:04, Passing a technical inspection, Open and close file "TTIW.csv", ID_works:2, Types_work: Регулировочные, Смазочные, Контрольно-диагностические
+22:05, Buses, Open and close file "Buses.csv", State_number:В233АМ, ID_driver: 2, ID_Maintenance: 2
+22:05, Drivers, Open and close file "Drivers.csv", Full_name:Петров Петр Петрович, ID_driver: 2
+22:05, Drivers, Open and close file "Conductors.csv", Full_name:Филипов Филип Филипович, Work_experience: {'ID_conductor': '4', 'Full_name': 'Филипов Филип Филипович', 'Work_experience': '5'}
+22:05, Passing a technical inspection, Open and close file "PTI.csv", Date_passage:21.12.2022, ID_Maintenance: 2
+22:05, Passing a technical inspection, Open and close file "TTIW.csv", ID_works:2, Types_work: Регулировочные, Смазочные, Контрольно-диагностические
+22:05, Buses, Open and close file "Buses.csv", State_number:С568АО, ID_driver: 1, ID_Maintenance: 1
+22:05, Drivers, Open and close file "Drivers.csv", Full_name:Иванов Иван Иванович, ID_driver: 1
+22:05, Drivers, Open and close file "Conductors.csv", Full_name:Марков Марк Маркович, Work_experience: {'ID_conductor': '3', 'Full_name': 'Марков Марк Маркович', 'Work_experience': '8'}
+22:05, Passing a technical inspection, Open and close file "PTI.csv", Date_passage:04.10.2022, ID_Maintenance: 1
+22:05, Passing a technical inspection, Open and close file "TTIW.csv", ID_works:3, Types_work: Комплексные работы
+22:07, Buses, Open and close file "Buses.csv", State_number:С045РО, ID_driver: 3, ID_Maintenance: 3
+22:07, Drivers, Open and close file "Drivers.csv", Full_name:Семенов Семен Семенович, ID_driver: 3
+22:07, Drivers, Open and close file "Conductors.csv", Full_name:Михайлов Михаил Михайлович, Work_experience: {'ID_conductor': '2', 'Full_name': 'Михайлов Михаил Михайлович', 'Work_experience': '12'}
+22:07, Passing a technical inspection, Open and close file "PTI.csv", Date_passage:08.11.2012, ID_Maintenance: 3
+22:07, Passing a technical inspection, Open and close file "TTIW.csv", ID_works:2, Types_work: Регулировочные, Смазочные, Контрольно-диагностические
+22:07, Buses, Open and close file "Buses.csv", State_number:С568АО, ID_driver: 1, ID_Maintenance: 1
+22:07, Drivers, Open and close file "Drivers.csv", Full_name:Иванов Иван Иванович, ID_driver: 1
+22:07, Drivers, Open and close file "Conductors.csv", Full_name:Марков Марк Маркович, Work_experience: {'ID_conductor': '3', 'Full_name': 'Марков Марк Маркович', 'Work_experience': '8'}
+22:07, Passing a technical inspection, Open and close file "PTI.csv", Date_passage:04.10.2022, ID_Maintenance: 1
+22:07, Passing a technical inspection, Open and close file "TTIW.csv", ID_works:3, Types_work: Комплексные работы
+22:07, Buses, Open and close file "Buses.csv", State_number:С568АО, ID_driver: 1, ID_Maintenance: 1
+22:07, Drivers, Open and close file "Drivers.csv", Full_name:Иванов Иван Иванович, ID_driver: 1
+22:07, Drivers, Open and close file "Conductors.csv", Full_name:Марков Марк Маркович, Work_experience: {'ID_conductor': '3', 'Full_name': 'Марков Марк Маркович', 'Work_experience': '8'}
+22:07, Passing a technical inspection, Open and close file "PTI.csv", Date_passage:04.10.2022, ID_Maintenance: 1
+22:07, Passing a technical inspection, Open and close file "TTIW.csv", ID_works:3, Types_work: Комплексные работы
+22:07, Buses, Open and close file "Buses.csv", State_number:С045РО, ID_driver: 3, ID_Maintenance: 3
+22:07, Drivers, Open and close file "Drivers.csv", Full_name:Семенов Семен Семенович, ID_driver: 3
+22:07, Drivers, Open and close file "Conductors.csv", Full_name:Михайлов Михаил Михайлович, Work_experience: {'ID_conductor': '2', 'Full_name': 'Михайлов Михаил Михайлович', 'Work_experience': '12'}
+22:07, Passing a technical inspection, Open and close file "PTI.csv", Date_passage:08.11.2012, ID_Maintenance: 3
+22:07, Passing a technical inspection, Open and close file "TTIW.csv", ID_works:2, Types_work: Регулировочные, Смазочные, Контрольно-диагностические

@@ -26,6 +26,7 @@ def single_click():
                 ST.insert(END, f"{buses_row['Serial_number'], buses_row['State_number'], buses_row['ID_driver'], buses_row['ID_conductor'], buses_row['ID_Maintenance']}\n")
                 ID_driver = buses_row['ID_driver']
                 ID_Maintenance = buses_row['ID_Maintenance']
+                ID_conductor = buses_row['ID_conductor']
                 log.Buses(f'Open and close file "Buses.csv", State_number:{buses_row["State_number"]}, ID_driver: {ID_driver}, ID_Maintenance: {ID_Maintenance}\n')
         
     with open("Drivers.csv",encoding="utf-8",newline="") as drivers_file:
@@ -36,12 +37,20 @@ def single_click():
                 ST.insert(END, f"{drivers_row['ID_driver'], drivers_row['Full_name'], drivers_row['Experience'], drivers_row['Open categories']}\n")
                 log.Drivers(f'Open and close file "Drivers.csv", Full_name:{drivers_row["Full_name"]}, ID_driver: {ID_driver}\n')
                 
+    with open("Conductors.csv",encoding="utf-8",newline="") as сonductors_file:
+        сonductors_reader = csv.DictReader(сonductors_file, delimiter=";")
+        for сonductors_row in сonductors_reader:
+            if ID_conductor == сonductors_row['ID_conductor']:
+                ST.insert(END, "Информация о кондукторе: ")
+                ST.insert(END, f"{сonductors_row['ID_conductor'], сonductors_row['Full_name'], сonductors_row['Work_experience']}\n")
+                log.Drivers(f'Open and close file "Conductors.csv", Full_name:{сonductors_row["Full_name"]}, Work_experience: {сonductors_row}\n')
+                
     with open("PTI.csv",encoding="utf-8",newline="") as pti_file:
         pti_reader = csv.DictReader(pti_file, delimiter=";")
         for pti_row in pti_reader:
             if ID_Maintenance == pti_row['ID_Maintenance']:
                 ST.insert(END, "Информация о ТО: ")
-                ST.insert(END, f"{pti_row['ID_Maintenance'], pti_row['Date_passage'], pti_row['ID_works']}")
+                ST.insert(END, f"{pti_row['ID_Maintenance'], pti_row['Date_passage'], pti_row['ID_works']}\n")
                 ID_works = pti_row['ID_works']
                 log.PTI(f'Open and close file "PTI.csv", Date_passage:{pti_row["Date_passage"]}, ID_Maintenance: {ID_Maintenance}\n')
 
