@@ -47,5 +47,5 @@ def single_click():
     return
 
 tk.Button(root, text="Вывести результат", command=single_click, font=10,).pack(side=BOTTOM,pady=10)
-
+tk.Label(root, text="Выбирите гос. номер автобуса:").place(x=20,y=0)
 root.mainloop()
